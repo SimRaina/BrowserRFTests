@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.3 on win32)" generated="2026-03-01T10:17:10.592265" rpa="false" schemaversion="5">
+<suite id="s1" name="1 OpenBrowserTest" source="C:\Users\simra\PycharmProjects\BrowserRFTests\BrowserTests\1_OpenBrowserTest.robot">
+<test id="s1-t1" name="Open OrangeHRM Page" line="8">
+<kw name="Open Maximized Browser" owner="common_keywords">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-01T10:17:11.065553" level="INFO">{"browser": "chromium", "headless": false, "args": ["--start-maximized"], "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\simra\\PycharmProjects\\BrowserRFTests\\log\\browser\\traces\\temp\\7a7376bb-8e3e-401c-81ea-1b1c62c3d29e"}</msg>
+<msg time="2026-03-01T10:17:11.119091" level="INFO">Starting Browser process C:\Python\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:51324</msg>
+<msg time="2026-03-01T10:17:13.169365" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"args":["--start-maximized"],"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\simra\\PycharmProjects\\BrowserRFTests\\log\\browser\\traces\\temp\\7a7376bb-8e3e-401c-81ea-1b1c62c3d29e"}</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=false</arg>
+<arg>args=["--start-maximized"]</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-01T10:17:11.063895" elapsed="2.106289"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-01T10:17:13.174294" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": null
+}</msg>
+<msg time="2026-03-01T10:17:13.202315" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-01T10:17:13.202708" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': None}</msg>
+<arg>viewport=${None}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-01T10:17:13.170795" elapsed="0.032152"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-01T10:17:16.208600" level="INFO">Successfully initialized new page object and opened url: https://opensource-demo.orangehrmlive.com</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-01T10:17:13.203392" elapsed="3.006152"/>
+</kw>
+<status status="PASS" start="2026-03-01T10:17:11.062412" elapsed="5.147536"/>
+</kw>
+<msg time="2026-03-01T10:17:16.269698" level="INFO">Switching context to context=af08c2cf-b7a4-4f08-97d8-02f96b2a2d75 in CURRENT</msg>
+<msg time="2026-03-01T10:17:16.288474" level="INFO">Successfully changed active context: context=af08c2cf-b7a4-4f08-97d8-02f96b2a2d75</msg>
+<msg time="2026-03-01T10:17:16.353339" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-03-01T10:17:11.061210" elapsed="5.149188"/>
+</test>
+<status status="PASS" start="2026-03-01T10:17:10.620149" elapsed="5.735154"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="1 OpenBrowserTest" id="s1" pass="1" fail="0" skip="0">1 OpenBrowserTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
