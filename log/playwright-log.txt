@@ -1,35 +1,35 @@
-{"level":30,"time":"2026-03-01T09:17:12.236Z","pid":6524,"hostname":"SimRaina","msg":"Listening on 127.0.0.1:51324"}
-{"level":30,"time":"2026-03-01T09:17:12.673Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-01T09:17:13.161Z","pid":6524,"hostname":"SimRaina","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-01T09:17:13.162Z","pid":6524,"hostname":"SimRaina","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-01T09:17:13.162Z","pid":6524,"hostname":"SimRaina","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-01T09:17:13.172Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-03-01T09:17:13.173Z","pid":6524,"hostname":"SimRaina","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
-{"level":30,"time":"2026-03-01T09:17:13.173Z","pid":6524,"hostname":"SimRaina","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@d05c2cd348c0834a4cbe3a75230913dd\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=b7f2f106-a452-4af7-865c-4b11c54a06f0\"}"}
-{"level":30,"time":"2026-03-01T09:17:13.173Z","pid":6524,"hostname":"SimRaina","msg":"Trace file: "}
-{"level":30,"time":"2026-03-01T09:17:13.194Z","pid":6524,"hostname":"SimRaina","msg":"Setting default timeout for context context=af08c2cf-b7a4-4f08-97d8-02f96b2a2d75 to 10000"}
-{"level":30,"time":"2026-03-01T09:17:13.195Z","pid":6524,"hostname":"SimRaina","msg":"Changed active context: context=af08c2cf-b7a4-4f08-97d8-02f96b2a2d75"}
-{"level":30,"time":"2026-03-01T09:17:13.195Z","pid":6524,"hostname":"SimRaina","msg":"End of node method newContext"}
-{"level":30,"time":"2026-03-01T09:17:13.203Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-01T09:17:13.203Z","pid":6524,"hostname":"SimRaina","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@d05c2cd348c0834a4cbe3a75230913dd\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=af08c2cf-b7a4-4f08-97d8-02f96b2a2d75\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@1837f1ac3a0acc7ee1c383fe5235846d\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=b7f2f106-a452-4af7-865c-4b11c54a06f0\"}"}
-{"level":30,"time":"2026-03-01T09:17:13.697Z","pid":6524,"hostname":"SimRaina","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-01T09:17:13.698Z","pid":6524,"hostname":"SimRaina","msg":"Changed active page"}
-{"level":30,"time":"2026-03-01T09:17:16.201Z","pid":6524,"hostname":"SimRaina","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-01T09:17:16.220Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:16.246Z","pid":6524,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:16.251Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:16.256Z","pid":6524,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:16.260Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:16.263Z","pid":6524,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:16.267Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:16.269Z","pid":6524,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:16.275Z","pid":6524,"hostname":"SimRaina","msg":"Changed active context: context=af08c2cf-b7a4-4f08-97d8-02f96b2a2d75"}
-{"level":30,"time":"2026-03-01T09:17:16.275Z","pid":6524,"hostname":"SimRaina","msg":"Changing current active page: page=0fb41f14-68c7-422a-b399-270c3f7d159b"}
-{"level":30,"time":"2026-03-01T09:17:16.275Z","pid":6524,"hostname":"SimRaina","msg":"Changed active page"}
-{"level":30,"time":"2026-03-01T09:17:16.285Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method closeContext"}
-{"level":30,"time":"2026-03-01T09:17:16.336Z","pid":6524,"hostname":"SimRaina","msg":"Removed page=81341a13-b5f7-43df-a8f9-56a5682c98c2 from context=af08c2cf-b7a4-4f08-97d8-02f96b2a2d75 page stack"}
-{"level":30,"time":"2026-03-01T09:17:16.347Z","pid":6524,"hostname":"SimRaina","msg":"End of node method closeContext"}
-{"level":30,"time":"2026-03-01T09:17:16.358Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:16.359Z","pid":6524,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-01T09:17:18.457Z","pid":6524,"hostname":"SimRaina","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-03-01T09:17:18.727Z","pid":6524,"hostname":"SimRaina","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T11:17:09.090Z","pid":5660,"hostname":"SimRaina","msg":"Listening on 127.0.0.1:64269"}
+{"level":30,"time":"2026-03-05T11:17:09.416Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-05T11:17:09.731Z","pid":5660,"hostname":"SimRaina","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-05T11:17:09.732Z","pid":5660,"hostname":"SimRaina","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-05T11:17:09.732Z","pid":5660,"hostname":"SimRaina","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-05T11:17:09.743Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-05T11:17:09.743Z","pid":5660,"hostname":"SimRaina","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2026-03-05T11:17:09.744Z","pid":5660,"hostname":"SimRaina","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8462a06e155af8d8fc835377b0116b95\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=f86c76dc-17e7-4ba7-9a7e-7bd587d6a335\"}"}
+{"level":30,"time":"2026-03-05T11:17:09.744Z","pid":5660,"hostname":"SimRaina","msg":"Trace file: "}
+{"level":30,"time":"2026-03-05T11:17:09.760Z","pid":5660,"hostname":"SimRaina","msg":"Setting default timeout for context context=c4807f79-1772-4493-a2bf-e4d9fefbfa05 to 10000"}
+{"level":30,"time":"2026-03-05T11:17:09.761Z","pid":5660,"hostname":"SimRaina","msg":"Changed active context: context=c4807f79-1772-4493-a2bf-e4d9fefbfa05"}
+{"level":30,"time":"2026-03-05T11:17:09.761Z","pid":5660,"hostname":"SimRaina","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-05T11:17:09.769Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T11:17:09.769Z","pid":5660,"hostname":"SimRaina","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8462a06e155af8d8fc835377b0116b95\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=c4807f79-1772-4493-a2bf-e4d9fefbfa05\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@bc716ee3a2e5a0fbfd0aa713bbc0c71d\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=f86c76dc-17e7-4ba7-9a7e-7bd587d6a335\"}"}
+{"level":30,"time":"2026-03-05T11:17:10.209Z","pid":5660,"hostname":"SimRaina","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T11:17:10.209Z","pid":5660,"hostname":"SimRaina","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T11:17:12.621Z","pid":5660,"hostname":"SimRaina","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T11:17:12.649Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:12.667Z","pid":5660,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:12.671Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:12.675Z","pid":5660,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:12.678Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:12.681Z","pid":5660,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:12.686Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:12.692Z","pid":5660,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:12.699Z","pid":5660,"hostname":"SimRaina","msg":"Changed active context: context=c4807f79-1772-4493-a2bf-e4d9fefbfa05"}
+{"level":30,"time":"2026-03-05T11:17:12.699Z","pid":5660,"hostname":"SimRaina","msg":"Changing current active page: page=962b5ee0-fb3a-4189-afa7-063a9f7d1625"}
+{"level":30,"time":"2026-03-05T11:17:12.699Z","pid":5660,"hostname":"SimRaina","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T11:17:12.706Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-05T11:17:12.737Z","pid":5660,"hostname":"SimRaina","msg":"Removed page=07bd8b90-ed29-45c5-bddc-e1c038c876ec from context=c4807f79-1772-4493-a2bf-e4d9fefbfa05 page stack"}
+{"level":30,"time":"2026-03-05T11:17:12.748Z","pid":5660,"hostname":"SimRaina","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-05T11:17:12.759Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:12.760Z","pid":5660,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:17:14.859Z","pid":5660,"hostname":"SimRaina","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T11:17:15.058Z","pid":5660,"hostname":"SimRaina","msg":"End of node method closeAllBrowsers"}
