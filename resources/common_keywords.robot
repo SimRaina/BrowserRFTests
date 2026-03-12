@@ -11,3 +11,6 @@ Open Maximized Browser
 Open Webpage
   [Arguments]  ${URL}
   New Page     ${URL}
+
+
+# Exercise: Create new custom keyword to create new browser and open webpage in one step
