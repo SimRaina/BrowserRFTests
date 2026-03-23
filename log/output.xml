@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.3 on win32)" generated="2026-03-20T11:13:07.016803" rpa="false" schemaversion="5">
+<suite id="s1" name="6 AdvancedTemplateTest" source="C:\Users\simra\PycharmProjects\BrowserRFTests\BrowserTests\6_AdvancedTemplateTest.robot">
+<kw name="Open Browser To Login Page" owner="common_keywords" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-20T11:13:07.621470" level="INFO">{"browser": "chromium", "headless": false, "args": ["--start-maximized"], "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\simra\\PycharmProjects\\BrowserRFTests\\log\\browser\\traces\\temp\\7c5cf813-02fa-438c-851e-80d52823bd3c"}</msg>
+<msg time="2026-03-20T11:13:07.781804" level="INFO">Starting Browser process C:\Python\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:53546</msg>
+<msg time="2026-03-20T11:13:09.476684" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"args":["--start-maximized"],"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\simra\\PycharmProjects\\BrowserRFTests\\log\\browser\\traces\\temp\\7c5cf813-02fa-438c-851e-80d52823bd3c"}</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=false</arg>
+<arg>args=["--start-maximized"]</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-20T11:13:07.620398" elapsed="1.856939"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-20T11:13:09.482743" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": null
+}</msg>
+<msg time="2026-03-20T11:13:09.522189" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-20T11:13:09.522508" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': None}</msg>
+<arg>viewport=${None}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-20T11:13:09.478011" elapsed="0.044705"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-20T11:13:15.365446" level="INFO">Successfully initialized new page object and opened url: https://opensource-demo.orangehrmlive.com</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-20T11:13:09.523058" elapsed="5.844778"/>
+</kw>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<status status="PASS" start="2026-03-20T11:13:07.619013" elapsed="7.750456"/>
+</kw>
+<test id="s1-t1" name="Invalid Login Tests" line="12">
+<for flavor="IN">
+<iter>
+<kw name="Invalid Login to OrangeHRM" owner="common_keywords">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-20T11:13:15.391221" level="INFO">Fills the text 'Admin' in the given field.</msg>
+<arg>input[name="username"]</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:15.389347" elapsed="0.906291"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-20T11:13:16.299017" level="INFO">Fills the text 'admin' in the given field.</msg>
+<arg>input[name="password"]</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:16.296015" elapsed="0.031477"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-20T11:13:16.330997" level="INFO">Clicks the element '//button[text()=" Login "]'.</msg>
+<arg>//button[text()=" Login "]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:16.328461" elapsed="1.202483"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-20T11:13:18.455535" level="INFO">Text: 'Invalid credentials'</msg>
+<msg time="2026-03-20T11:13:18.455871" level="INFO">${ERROR_MESSAGE} = Invalid credentials</msg>
+<var>${ERROR_MESSAGE}</var>
+<arg>//p[contains(@class, 'alert')]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:17.531247" elapsed="0.924728"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${ERROR_MESSAGE}</arg>
+<arg>${EXPECTED_ERROR_MESSAGE}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-20T11:13:18.456186" elapsed="0.000823"/>
+</kw>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2026-03-20T11:13:15.387667" elapsed="3.069513"/>
+</kw>
+<var name="${USERNAME}">Admin</var>
+<var name="${PASSWORD}">admin</var>
+<status status="PASS" start="2026-03-20T11:13:15.385865" elapsed="3.071423"/>
+</iter>
+<iter>
+<kw name="Invalid Login to OrangeHRM" owner="common_keywords">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-20T11:13:18.465053" level="INFO">Fills the text 'adm' in the given field.</msg>
+<arg>input[name="username"]</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:18.460593" elapsed="0.020944"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-20T11:13:18.483929" level="INFO">Fills the text 'admin123' in the given field.</msg>
+<arg>input[name="password"]</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:18.482004" elapsed="0.019762"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-20T11:13:18.502927" level="INFO">Clicks the element '//button[text()=" Login "]'.</msg>
+<arg>//button[text()=" Login "]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:18.502043" elapsed="1.061565"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-20T11:13:20.434255" level="INFO">Text: 'Invalid credentials'</msg>
+<msg time="2026-03-20T11:13:20.434576" level="INFO">${ERROR_MESSAGE} = Invalid credentials</msg>
+<var>${ERROR_MESSAGE}</var>
+<arg>//p[contains(@class, 'alert')]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:19.564002" elapsed="0.870690"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${ERROR_MESSAGE}</arg>
+<arg>${EXPECTED_ERROR_MESSAGE}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-20T11:13:20.434899" elapsed="0.000835"/>
+</kw>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2026-03-20T11:13:18.458657" elapsed="1.977275"/>
+</kw>
+<var name="${USERNAME}">adm</var>
+<var name="${PASSWORD}">admin123</var>
+<status status="PASS" start="2026-03-20T11:13:18.457523" elapsed="1.978494"/>
+</iter>
+<iter>
+<kw name="Invalid Login to OrangeHRM" owner="common_keywords">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-20T11:13:20.439505" level="INFO">Fills the text 'adm' in the given field.</msg>
+<arg>input[name="username"]</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:20.438279" elapsed="0.016230"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-20T11:13:20.456010" level="INFO">Fills the text 'admin' in the given field.</msg>
+<arg>input[name="password"]</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:20.454865" elapsed="0.021304"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-20T11:13:20.477340" level="INFO">Clicks the element '//button[text()=" Login "]'.</msg>
+<arg>//button[text()=" Login "]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:20.476485" elapsed="1.128451"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-20T11:13:22.514041" level="INFO">Text: 'Invalid credentials'</msg>
+<msg time="2026-03-20T11:13:22.514299" level="INFO">${ERROR_MESSAGE} = Invalid credentials</msg>
+<var>${ERROR_MESSAGE}</var>
+<arg>//p[contains(@class, 'alert')]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T11:13:21.605854" elapsed="0.908506"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${ERROR_MESSAGE}</arg>
+<arg>${EXPECTED_ERROR_MESSAGE}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-20T11:13:22.514542" elapsed="0.001211"/>
+</kw>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2026-03-20T11:13:20.437005" elapsed="2.079109"/>
+</kw>
+<var name="${USERNAME}">adm</var>
+<var name="${PASSWORD}">admin</var>
+<status status="PASS" start="2026-03-20T11:13:20.436197" elapsed="2.080140"/>
+</iter>
+<var>${USERNAME}</var>
+<var>${PASSWORD}</var>
+<value>@{INVALID_CREDENTIALS}</value>
+<status status="PASS" start="2026-03-20T11:13:15.384252" elapsed="7.132321"/>
+</for>
+<status status="PASS" start="2026-03-20T11:13:15.369877" elapsed="7.147103"/>
+</test>
+<status status="PASS" start="2026-03-20T11:13:07.043009" elapsed="15.481421"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="6 AdvancedTemplateTest" id="s1" pass="1" fail="0" skip="0">6 AdvancedTemplateTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

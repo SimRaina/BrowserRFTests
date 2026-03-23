@@ -1,0 +1,76 @@
+{"level":30,"time":"2026-03-20T10:13:08.739Z","pid":14684,"hostname":"SimRaina","msg":"Listening on 127.0.0.1:53546"}
+{"level":30,"time":"2026-03-20T10:13:08.876Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-20T10:13:09.470Z","pid":14684,"hostname":"SimRaina","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-20T10:13:09.471Z","pid":14684,"hostname":"SimRaina","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-20T10:13:09.474Z","pid":14684,"hostname":"SimRaina","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-20T10:13:09.485Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-20T10:13:09.485Z","pid":14684,"hostname":"SimRaina","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2026-03-20T10:13:09.487Z","pid":14684,"hostname":"SimRaina","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@cb029a20e96ecf863f8ffa90fd8179ab\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=845b09a1-bed2-4ee4-bb1b-ff5e3a088a18\"}"}
+{"level":30,"time":"2026-03-20T10:13:09.488Z","pid":14684,"hostname":"SimRaina","msg":"Trace file: "}
+{"level":30,"time":"2026-03-20T10:13:09.519Z","pid":14684,"hostname":"SimRaina","msg":"Setting default timeout for context context=10ccb107-1bfd-4636-85c5-acba045d79af to 10000"}
+{"level":30,"time":"2026-03-20T10:13:09.519Z","pid":14684,"hostname":"SimRaina","msg":"Changed active context: context=10ccb107-1bfd-4636-85c5-acba045d79af"}
+{"level":30,"time":"2026-03-20T10:13:09.519Z","pid":14684,"hostname":"SimRaina","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-20T10:13:09.527Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-20T10:13:09.528Z","pid":14684,"hostname":"SimRaina","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@cb029a20e96ecf863f8ffa90fd8179ab\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=10ccb107-1bfd-4636-85c5-acba045d79af\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@0174d5fef24a84dea56a706c345f7025\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=845b09a1-bed2-4ee4-bb1b-ff5e3a088a18\"}"}
+{"level":30,"time":"2026-03-20T10:13:09.948Z","pid":14684,"hostname":"SimRaina","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-20T10:13:09.949Z","pid":14684,"hostname":"SimRaina","msg":"Changed active page"}
+{"level":30,"time":"2026-03-20T10:13:15.363Z","pid":14684,"hostname":"SimRaina","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-20T10:13:15.374Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:15.381Z","pid":14684,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:15.394Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:15.395Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
+{"level":30,"time":"2026-03-20T10:13:16.293Z","pid":14684,"hostname":"SimRaina","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:16.304Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:16.304Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with input[name=\"password\"] in page."}
+{"level":30,"time":"2026-03-20T10:13:16.325Z","pid":14684,"hostname":"SimRaina","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:16.337Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-20T10:13:16.338Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with //button[text()=\" Login \"] in page."}
+{"level":30,"time":"2026-03-20T10:13:17.529Z","pid":14684,"hostname":"SimRaina","msg":"End of node method click"}
+{"level":30,"time":"2026-03-20T10:13:17.540Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-20T10:13:17.540Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with //p[contains(@class, 'alert')] in page."}
+{"level":30,"time":"2026-03-20T10:13:18.453Z","pid":14684,"hostname":"SimRaina","msg":"Retrieved text for element //p[contains(@class, 'alert')] containing Invalid credentials"}
+{"level":30,"time":"2026-03-20T10:13:18.453Z","pid":14684,"hostname":"SimRaina","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-20T10:13:18.467Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:18.467Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
+{"level":30,"time":"2026-03-20T10:13:18.477Z","pid":14684,"hostname":"SimRaina","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:18.485Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:18.485Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with input[name=\"password\"] in page."}
+{"level":30,"time":"2026-03-20T10:13:18.500Z","pid":14684,"hostname":"SimRaina","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:18.504Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-20T10:13:18.504Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with //button[text()=\" Login \"] in page."}
+{"level":30,"time":"2026-03-20T10:13:19.560Z","pid":14684,"hostname":"SimRaina","msg":"End of node method click"}
+{"level":30,"time":"2026-03-20T10:13:19.570Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-20T10:13:19.570Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with //p[contains(@class, 'alert')] in page."}
+{"level":30,"time":"2026-03-20T10:13:20.433Z","pid":14684,"hostname":"SimRaina","msg":"Retrieved text for element //p[contains(@class, 'alert')] containing Invalid credentials"}
+{"level":30,"time":"2026-03-20T10:13:20.433Z","pid":14684,"hostname":"SimRaina","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-20T10:13:20.440Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:20.441Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
+{"level":30,"time":"2026-03-20T10:13:20.452Z","pid":14684,"hostname":"SimRaina","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:20.457Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:20.457Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with input[name=\"password\"] in page."}
+{"level":30,"time":"2026-03-20T10:13:20.474Z","pid":14684,"hostname":"SimRaina","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-20T10:13:20.479Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-20T10:13:20.479Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with //button[text()=\" Login \"] in page."}
+{"level":30,"time":"2026-03-20T10:13:21.602Z","pid":14684,"hostname":"SimRaina","msg":"End of node method click"}
+{"level":30,"time":"2026-03-20T10:13:21.610Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-20T10:13:21.611Z","pid":14684,"hostname":"SimRaina","msg":"Strict mode is enabled, find Locator with //p[contains(@class, 'alert')] in page."}
+{"level":30,"time":"2026-03-20T10:13:22.512Z","pid":14684,"hostname":"SimRaina","msg":"Retrieved text for element //p[contains(@class, 'alert')] containing Invalid credentials"}
+{"level":30,"time":"2026-03-20T10:13:22.512Z","pid":14684,"hostname":"SimRaina","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-20T10:13:22.520Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.522Z","pid":14684,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.527Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.529Z","pid":14684,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.531Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.533Z","pid":14684,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.535Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.537Z","pid":14684,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.539Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.546Z","pid":14684,"hostname":"SimRaina","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T10:13:22.552Z","pid":14684,"hostname":"SimRaina","msg":"Changed active context: context=10ccb107-1bfd-4636-85c5-acba045d79af"}
+{"level":30,"time":"2026-03-20T10:13:22.552Z","pid":14684,"hostname":"SimRaina","msg":"Changing current active page: page=401c7862-fa87-4b5a-ba38-9b24d7a11f39"}
+{"level":30,"time":"2026-03-20T10:13:22.552Z","pid":14684,"hostname":"SimRaina","msg":"Changed active page"}
+{"level":30,"time":"2026-03-20T10:13:22.556Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-20T10:13:22.591Z","pid":14684,"hostname":"SimRaina","msg":"Removed page=9cbb67e7-e613-499c-a27e-13e4437cc574 from context=10ccb107-1bfd-4636-85c5-acba045d79af page stack"}
+{"level":30,"time":"2026-03-20T10:13:22.600Z","pid":14684,"hostname":"SimRaina","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-20T10:13:24.807Z","pid":14684,"hostname":"SimRaina","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-20T10:13:25.046Z","pid":14684,"hostname":"SimRaina","msg":"End of node method closeAllBrowsers"}

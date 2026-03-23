@@ -1,6 +1,9 @@
 *** Settings ***
 Library   Browser
 
+*** Variables ***
+${EXPECTED_ERROR_MESSAGE}   Invalid credentials
+
 *** Keywords ***
 # Here we define our own custom keywords that are reusable
 Open Maximized Browser
