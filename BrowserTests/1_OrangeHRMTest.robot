@@ -17,7 +17,6 @@ ${EXPECTED_TITLE}  OrangeHRM
 *** Test Cases ***
 # Here we define one or more tests cases
 Verify Current URL
-
    ${CURRENT_URL}  Get Url
    Log To Console    ${CURRENT_URL}
    # Validation of opened url
